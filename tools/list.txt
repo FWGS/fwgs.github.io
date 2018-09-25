@@ -1,0 +1,24 @@
+xash3d|Xash3D FWGS|os
+cs16client|CS16Client|free
+bshift|BSLauncher|os
+blackops|Black OPS|os
+xenwar|Xen Warrior|os
+tot|Times of Troubles|os
+eftd|Escape from the Darkness|os
+dmc|QCLauncher|os
+parabot|Parabot|os
+bubblemod|Bubblemod|os
+poke646|Poke646|os
+vendetta|Poke646: Vendetta|os
+zx|Zombie-X|os
+aomdc|Afraid of Monsters: Director's Cut|os
+shall|Swiss Cheese Halloween 2002|os
+hunger|They Hunger|os
+cad|Cleaner's Adventures|os
+rpoint|ResidualLauncher|os
+visitors|Visitors|os
+ag|Adrenaline Gamer|os
+TheGate|The Gate|os
+sohl|SOHL12Launcher|os
+noffice|Night at the Office|os
+HalfScrewed|Half-Screwed Death and Rebirth|os
