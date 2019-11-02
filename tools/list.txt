@@ -18,7 +18,11 @@ cad|Cleaner's Adventures|os
 rpoint|ResidualLauncher|os
 visitors|Visitors|os
 ag|Adrenaline Gamer|os
-TheGate|The Gate|os
-sohl|SOHL12Launcher|os
+thegate|The Gate|os
+sohl12|SOHL12Launcher|os
 noffice|Night at the Office|os
-HalfScrewed|Half-Screwed Death and Rebirth|os
+hscrewed|Half-Screwed Death and Rebirth|os
+echoes|Echoes|os
+asheep|Azure Sheep|os
+rebellion|Rebellion|os
+topdown|TopDown|os
