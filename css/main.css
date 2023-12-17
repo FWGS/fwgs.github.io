@@ -3,7 +3,7 @@
 ----------------------------------------------------------------
 
     1.0 - Google Fonts
-    2.0 - Font Awesome 4.4.0
+    2.0 - Fork Awesome 1.2.0
     3.0 - Boostrap Grid System
     4.0 - Reset
     5.0 - Helper Classes
@@ -68,10 +68,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 
 /*--------------------------------------------------------------
-    2.0 - Font Awesome 4.4.0
+    2.0 - Fork Awesome 1.2.0
 --------------------------------------------------------------*/
 
-@import url('font-awesome.min.css');
+@import url('fork-awesome.min.css');
 
 /*--------------------------------------------------------------
     3.0 - Boostrap Grid System
@@ -692,7 +692,7 @@ h6 i {
 
 #nav-menu ul ul a:before {
     margin-right: 10px;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     content: '\f105';
     color: #404040;
 }
@@ -963,7 +963,7 @@ h6 i {
 
 .instagram-bar:after,
 .instagram-bar strong:before {
-    font-family: FontAwesome;
+    font-family: ForkAwesome;
     content: '\f16d';
 }
 
@@ -1078,7 +1078,7 @@ h6 i {
 }
 
 .work-thumb a:before {
-    font-family: 'Fontawesome';
+    font-family: 'Forkawesome';
 }
 
 .zoom {
@@ -1132,7 +1132,7 @@ h6 i {
     display: block;
     margin-bottom: 10px;
     color: #BDC3C7;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     content: '\f10d';
 }
 
@@ -1262,7 +1262,7 @@ h6 i {
     top: 2px;
     left: 0;
     width: 20px;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     content: '\f091';
     text-align: center;
 }
@@ -1303,7 +1303,7 @@ h6 i {
 
 .post-meta span:before {
     margin-right: 10px;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
 }
 
 .post-meta span.date:before {
@@ -1351,7 +1351,7 @@ h6 i {
 --------------------------------------------------------------*/
 
 .event .post-title:before {
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     content: '\f08d';
     margin-right: 20px;
     color: #404040;
@@ -1421,7 +1421,7 @@ h6 i {
     left: 0;
     margin-right: 10px;
     width: 20px;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     content: '\f105';
 }
 
@@ -1450,7 +1450,7 @@ ul.tags li a {
 
 ul.tags li a:before {
     margin-right: 5px;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     content: '\f02b';
 }
 
@@ -1669,7 +1669,7 @@ select,
     width: inherit;
     height: inherit;
     color: transparent;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     content: '\f00c';
 }
 
@@ -1815,7 +1815,7 @@ input[type=radio]:checked + .radio-replacer {
     top: 10px;
     right: 10px;
     font-size: 12px;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     content: '\f078';
     color: #BDC3C7;
 }
@@ -1888,7 +1888,7 @@ input[type=radio]:checked + .radio-replacer {
 
 .form-msg.success span:before {
     color: #27ae60;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     content: '\f00c';
 }
 
@@ -2322,7 +2322,7 @@ hr.lg-divider {
     top: 20px;
     left: 20px;
     color: #BDC3C7;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     font-size: 20px;
     content: '\f10d';
     line-height: 1;
@@ -2809,7 +2809,7 @@ hr.lg-divider {
         top: 15px;
         right: 10px;
         color: #404040;
-        font-family: 'FontAwesome';
+        font-family: 'ForkAwesome';
         font-size: 9px;
         font-weight: normal;
         content: '\f078';
@@ -3480,7 +3480,7 @@ html[xmlns] .flexslider .slides,
     margin-top: -20px;
     color: #ffffff;
     background: #161616;
-    font-family: 'FontAwesome';
+    font-family: 'ForkAwesome';
     font-size: 13px;
     text-align: center;
     z-index: 10;
