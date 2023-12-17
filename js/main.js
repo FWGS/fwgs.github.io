@@ -1,6 +1,4 @@
 ( function( $ ) {
-    "use strict";
-
     var THE_TATTOOIST = window.THE_TATTOOIST || {};
 
     /*-------------------------------------------------------------------*/
@@ -284,7 +282,7 @@
             var self = this,
                 $body = $('body');
 
-            $('#nav-toggle').click(function(e){
+            $('#nav-toggle').on("click",function(e){
                 e.preventDefault();
 
                 if ( $body.hasClass('open') ) {
@@ -476,7 +474,7 @@
         // Add form message container
         $('form').append('<div class="form-msg" style="display:none"><span></span><a href="#"></a></div>');
 
-        $('form').submit(function(e){
+        $('form').on("submit",function(e){
             e.preventDefault();
 
             var $that = $(this),
@@ -563,7 +561,7 @@
     });
 
     // window load scripts
-    $(window).load(function() {
+    $(window).on("load",function() {
 
         THE_TATTOOIST.pageLoader();
         THE_TATTOOIST.flexslider();
@@ -571,7 +569,7 @@
     });
 
     // window resize scripts
-    $(window).resize(function() {
+    $(window).on("resize",function() {
 
         THE_TATTOOIST.portfolio.layout();
         THE_TATTOOIST.mobileMenu.addRemoveClasses();
@@ -579,7 +577,7 @@
     });
 
     // window scroll scripts
-    $(window).scroll(function() {
+    $(window).on("scroll",function() {
 
         THE_TATTOOIST.stickyMenu();
         THE_TATTOOIST.scrollHighlight();
