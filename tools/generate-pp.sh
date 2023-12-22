@@ -14,7 +14,7 @@ generate()
 	echo "Name: $APPNAME"
 	echo "Type: $TYPE"
 	
-	sed -e "s/__APPNAME__/$APPNAME/" < base.html | sed -e "s/__TYPE__/$TYPE/" > "$FILENAME"
+	sed -e "s/__APPNAME__/$APPNAME/; s/__TYPE__/$TYPE/" < base.html > "$FILENAME"
 }
 
 main()
