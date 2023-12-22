@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 generate()
 {
@@ -17,21 +17,15 @@ generate()
 	sed -e "s/__APPNAME__/$APPNAME/" < base.html | sed -e "s/__TYPE__/$TYPE/" > "$FILENAME"
 }
 
-parseline()
-{
-	IFS='|'
-	readarray ITEM <<< $1
-	generate ${ITEM[0]} ${ITEM[1]} ${ITEM[2]}
-}
-
 main()
 {
 	IFS="|"
-	cat list.txt | while read -a line; do
-		generate "${line[0]}" "${line[1]}" "${line[2]}"
-	done
+	while read -r word0 word1 word2; do
+		generate "$word0" "$word1" "$word2"
+	done < list.txt
 	
 	unset IFS
 }
 
 main "$@"
+
