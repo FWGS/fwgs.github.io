@@ -2354,10 +2354,10 @@ hr.lg-divider {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    width: 100px;
-    height: 100px;
+    margin-top: -60px;
+    margin-left: -60px;
+    width: 120px;
+    height: 120px;
     background: url(../img/loader.png) no-repeat center center;
     -webkit-animation: bounce 0.8s infinite ease-in-out;
     animation: bounce 0.8s infinite ease-in-out;
